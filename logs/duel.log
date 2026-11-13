@@ -1,0 +1,63 @@
+2026-11-13T07:56:37Z SNAP min=2026-11-13T07:56Z seg=- lane1=100 lane2=100
+2026-11-13T07:57:01Z SNAP min=2026-11-13T07:57Z seg=- lane1=100 lane2=100
+2026-11-13T07:58:01Z SNAP min=2026-11-13T07:58Z seg=N0-control lane1=100 lane2=100
+2026-11-13T07:59:00Z SNAP min=2026-11-13T07:59Z seg=N0-control lane1=100 lane2=100
+2026-11-13T08:00:00Z SNAP min=2026-11-13T08:00Z seg=N0-control lane1=100 lane2=100
+2026-11-13T08:01:00Z SNAP min=2026-11-13T08:01Z seg=N0-control lane1=100 lane2=100
+2026-11-13T08:02:00Z SNAP min=2026-11-13T08:02Z seg=L30-r150-ref lane1=150 lane2=150
+2026-11-13T08:03:00Z SNAP min=2026-11-13T08:03Z seg=L30-r150-ref lane1=150 lane2=150
+2026-11-13T08:04:00Z SNAP min=2026-11-13T08:04Z seg=L30-r150-ref lane1=150 lane2=150
+2026-11-13T08:05:00Z SNAP min=2026-11-13T08:05Z seg=L30-r150-ref lane1=150 lane2=150
+2026-11-13T08:05:59Z SEG L30-greedy100 start a=150 b=150 asym=1 fees1_tkas=831.44 fees2_tkas=0.00
+2026-11-13T08:06:00Z SNAP min=2026-11-13T08:06Z seg=L30-greedy100 lane1=150 lane2=150
+2026-11-13T08:07:00Z SNAP min=2026-11-13T08:07Z seg=L30-greedy100 lane1=150 lane2=150
+2026-11-13T08:07:22Z REF lane1_landed=519 lane2_landed=0 from=3
+2026-11-13T08:07:22Z MIN min=2026-11-13T08:06Z seg=L30-greedy100 a_hv1=510 a_pct=98 b_hv2=0 b_pct=- a_rate=150->188 b_rate=150->150 share1=100.0 floor_pf=32.0 r150_pf=42.8 r300_pf=47.8 r450_pf=50.3 other=3035 cb=602 fees1_tkas=1098.73 fees2_tkas=0.00
+2026-11-13T08:08:00Z SNAP min=2026-11-13T08:08Z seg=L30-greedy100 lane1=188 lane2=150
+2026-11-13T08:08:22Z MIN min=2026-11-13T08:07Z seg=L30-greedy100 a_hv1=510 a_pct=98 b_hv2=0 b_pct=- a_rate=188->235 b_rate=150->150 share1=100.0 floor_pf=29.5 r150_pf=40.3 r300_pf=49.0 r450_pf=51.3 other=2995 cb=597 fees1_tkas=1380.66 fees2_tkas=0.00
+2026-11-13T08:09:00Z SNAP min=2026-11-13T08:09Z seg=L30-greedy100 lane1=235 lane2=150
+2026-11-13T08:09:22Z MIN min=2026-11-13T08:08Z seg=L30-greedy100 a_hv1=543 a_pct=105 b_hv2=0 b_pct=- a_rate=235->235 b_rate=150->150 share1=100.0 floor_pf=23.3 r150_pf=34.0 r300_pf=50.5 r450_pf=53.0 other=2918 cb=617 fees1_tkas=1717.42 fees2_tkas=0.00
+2026-11-13T08:10:00Z SNAP min=2026-11-13T08:10Z seg=L30-greedy100 lane1=235 lane2=150
+2026-11-13T08:10:22Z MIN min=2026-11-13T08:09Z seg=L30-greedy100 a_hv1=512 a_pct=99 b_hv2=0 b_pct=- a_rate=235->294 b_rate=150->150 share1=100.0 floor_pf=18.5 r150_pf=30.3 r300_pf=44.8 r450_pf=48.0 other=3065 cb=591 fees1_tkas=2034.05 fees2_tkas=0.00
+2026-11-13T08:11:01Z SNAP min=2026-11-13T08:11Z seg=L30-greedy100 lane1=294 lane2=150
+2026-11-13T08:11:23Z MIN min=2026-11-13T08:10Z seg=L30-greedy100 a_hv1=502 a_pct=97 b_hv2=0 b_pct=- a_rate=294->368 b_rate=150->150 share1=100.0 floor_pf=14.3 r150_pf=28.0 r300_pf=43.8 r450_pf=47.8 other=2789 cb=569 fees1_tkas=2431.99 fees2_tkas=0.00
+2026-11-13T08:12:01Z SNAP min=2026-11-13T08:12Z seg=L30-greedy100 lane1=368 lane2=150
+2026-11-13T08:12:23Z MIN min=2026-11-13T08:11Z seg=L30-greedy100 a_hv1=525 a_pct=101 b_hv2=0 b_pct=- a_rate=368->368 b_rate=150->150 share1=100.0 floor_pf=12.3 r150_pf=22.0 r300_pf=42.3 r450_pf=49.0 other=2927 cb=591 fees1_tkas=2935.96 fees2_tkas=0.00
+2026-11-13T08:12:59Z SEG L30-normal start a=150 b=150 asym=0 fees1_tkas=3248.29 fees2_tkas=0.00
+2026-11-13T08:13:00Z SNAP min=2026-11-13T08:13Z seg=L30-normal lane1=150 lane2=150
+2026-11-13T08:13:22Z HOLD min=2026-11-13T08:12Z reason=segment-change a=150 b=150
+2026-11-13T08:14:00Z SNAP min=2026-11-13T08:14Z seg=L30-normal lane1=150 lane2=150
+2026-11-13T08:14:22Z MIN min=2026-11-13T08:13Z seg=L30-normal a_hv1=510 a_pct=98 b_hv2=0 b_pct=- a_rate=150->150 b_rate=150->150 share1=100.0 floor_pf=30.5 r150_pf=39.8 r300_pf=48.5 r450_pf=49.8 other=3281 cb=579 fees1_tkas=3534.46 fees2_tkas=0.00
+2026-11-13T08:15:00Z SNAP min=2026-11-13T08:15Z seg=L30-normal lane1=150 lane2=150
+2026-11-13T08:15:22Z MIN min=2026-11-13T08:14Z seg=L30-normal a_hv1=523 a_pct=101 b_hv2=0 b_pct=- a_rate=150->120 b_rate=150->150 share1=100.0 floor_pf=32.0 r150_pf=43.8 r300_pf=49.0 r450_pf=53.0 other=2997 cb=616 fees1_tkas=3739.71 fees2_tkas=0.00
+2026-11-13T08:16:00Z SNAP min=2026-11-13T08:16Z seg=L30-normal lane1=120 lane2=150
+2026-11-13T08:16:22Z MIN min=2026-11-13T08:15Z seg=L30-normal a_hv1=498 a_pct=96 b_hv2=0 b_pct=- a_rate=120->120 b_rate=150->150 share1=100.0 floor_pf=35.3 r150_pf=41.5 r300_pf=48.5 r450_pf=52.3 other=3007 cb=596 fees1_tkas=3899.76 fees2_tkas=0.00
+2026-11-13T08:17:00Z SNAP min=2026-11-13T08:17Z seg=L30-normal lane1=120 lane2=150
+2026-11-13T08:17:22Z MIN min=2026-11-13T08:16Z seg=L30-normal a_hv1=510 a_pct=98 b_hv2=0 b_pct=- a_rate=120->100 b_rate=150->150 share1=100.0 floor_pf=38.5 r150_pf=45.0 r300_pf=51.0 r450_pf=50.5 other=2989 cb=612 fees1_tkas=4067.86 fees2_tkas=0.00
+2026-11-13T08:18:01Z SNAP min=2026-11-13T08:18Z seg=L30-normal lane1=100 lane2=150
+2026-11-13T08:18:23Z MIN min=2026-11-13T08:17Z seg=L30-normal a_hv1=515 a_pct=99 b_hv2=0 b_pct=- a_rate=100->100 b_rate=150->150 share1=100.0 floor_pf=39.3 r150_pf=46.0 r300_pf=49.8 r450_pf=51.8 other=3167 cb=619 fees1_tkas=4196.68 fees2_tkas=0.00
+2026-11-13T08:19:01Z SNAP min=2026-11-13T08:19Z seg=L8-r460 lane1=460 lane2=100
+2026-11-13T08:20:00Z SNAP min=2026-11-13T08:20Z seg=L8-r460 lane1=460 lane2=100
+2026-11-13T08:21:00Z SNAP min=2026-11-13T08:21Z seg=L8-r460 lane1=460 lane2=100
+2026-11-13T08:22:00Z SNAP min=2026-11-13T08:22Z seg=L8-r460 lane1=460 lane2=100
+2026-11-13T08:23:01Z SNAP min=2026-11-13T08:23Z seg=L8-r460 lane1=460 lane2=100
+2026-11-13T08:24:01Z SNAP min=2026-11-13T08:24Z seg=L30-r460 lane1=460 lane2=100
+2026-11-13T08:25:01Z SNAP min=2026-11-13T08:25Z seg=L30-r460 lane1=460 lane2=100
+2026-11-13T08:26:00Z SNAP min=2026-11-13T08:26Z seg=L30-r460 lane1=460 lane2=100
+2026-11-13T08:27:00Z SNAP min=2026-11-13T08:27Z seg=- lane1=100 lane2=100
+2026-11-13T08:28:00Z SNAP min=2026-11-13T08:28Z seg=- lane1=100 lane2=100
+2026-11-13T08:29:00Z SNAP min=2026-11-13T08:29Z seg=- lane1=100 lane2=100
+2026-11-13T08:30:00Z SNAP min=2026-11-13T08:30Z seg=- lane1=100 lane2=100
+2026-11-13T08:31:01Z SNAP min=2026-11-13T08:31Z seg=- lane1=100 lane2=100
+2026-11-13T08:32:01Z SNAP min=2026-11-13T08:32Z seg=- lane1=100 lane2=100
+2026-11-13T08:33:00Z SNAP min=2026-11-13T08:33Z seg=- lane1=100 lane2=100
+2026-11-13T08:34:00Z SNAP min=2026-11-13T08:34Z seg=- lane1=100 lane2=100
+2026-11-13T08:35:01Z SNAP min=2026-11-13T08:35Z seg=- lane1=100 lane2=100
+2026-11-13T08:36:01Z SNAP min=2026-11-13T08:36Z seg=- lane1=100 lane2=100
+2026-11-13T08:37:01Z SNAP min=2026-11-13T08:37Z seg=- lane1=100 lane2=100
+2026-11-13T08:38:00Z SNAP min=2026-11-13T08:38Z seg=- lane1=100 lane2=100
+2026-11-13T08:39:00Z SNAP min=2026-11-13T08:39Z seg=- lane1=100 lane2=100
+2026-11-13T08:40:00Z SNAP min=2026-11-13T08:40Z seg=- lane1=100 lane2=100
+2026-11-13T08:41:01Z SNAP min=2026-11-13T08:41Z seg=- lane1=100 lane2=100
+2026-11-13T08:42:01Z SNAP min=2026-11-13T08:42Z seg=- lane1=100 lane2=100
+2026-11-13T08:43:03Z SNAP min=2026-11-13T08:43Z seg=- lane1=100 lane2=100
