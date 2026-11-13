@@ -117,9 +117,3 @@ Per family, percent of BASE (BASE medians per family a minute: floor 47.9, r150 
 - A never-down rule with a target near the median of its own landings climbs; the target being "reachable" is not enough. A rule that also steps down settles. Pre-runs 16–20 together: the normal rule settled every time (two lanes or one); greedy climbed every time (with a rival, alone above the ceiling, alone at the median).
 - On our node, the harm to low-fee transactions follows how many of our heavy transactions are ready at a high rate, more than the rate itself. Few heavy transactions at a high rate cost the bystanders little and left the template full.
 - The node's fee estimate tracks the top of the mempool, not what a low-fee transaction actually needs while a heavy lane is there.
-
-## Open after this run
-
-- `FROZEN`, the cap guard (`CAP_REACHED`) and the budget hold have still never run live.
-- N = 8 changed two things (ready count and landings). A run with N = 30 at 460 and a per-minute submit cap equal to N = 8's landings, or N = 8 / 15 / 30 steps, would separate them.
-- The template is the desk node's, not a miner's.
