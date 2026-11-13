@@ -615,3 +615,11 @@ These lines are baked into this repo's own pastes. They come from pre-run 19's l
 ## Locked during pre-run 20
 
 When a fix works, append it here, one block per fix, in the form shown above: UTC time, what failed or worked, what was changed, why that change stays.
+
+```
+- 2026-11-13T08:43:06Z.
+- What worked: housekeeping before the open (sink swept, small coins merged, key 3's old leftovers moved to the pile, key 0 refilled to 63,851 usable; budget check projected 31,158, actual 33,040). Rehearsed offline first, calibrated on the node, bot free check once before arming, template watcher every 3 s. Every step, RETURN, TIMELINE, MEMPOOL and METHOD on origin, every whole minute clean. 11,474 lane transactions accepted, 0 rejected, 0 lost, 7,656.21 tKAS fees, 430.27 parked (not swept). Every OK family hop included (floor 5,975, r150 6,795, r300 7,870, r450 8,175). greedy100 150 -> 368 (ratchet), normal 150 -> 100 (settled); at 460 the template stayed full with N = 8 (471,954) and shrank with N = 30 (348,296). Mini 131 of 136. Bot NO SEND no-free-node on time.
+- What failed: nothing in the run. No cap was met, so FROZEN, the cap guard and the budget hold are still untested live.
+- What was changed: nothing during the run. The duel log was copied unchanged to logs/duel.log after the run.
+- Why that change stays, for the next repo: keep the template watcher, the budget check before genesis, the FROZEN rule, the calibrations, the pre-arm free check, Mini's count and the waiter's fetch handling. N = 8 changed ready count and landings together; a later probe should hold landings fixed while changing the ready count.
+```
