@@ -64,7 +64,13 @@ Not a gate. Read on 2026-11-13 between 07:08Z and 07:27Z. This is our own TN10 t
 
 ## Offline rehearsal, recorded before `PRE-RUN-OPEN`
 
-REHEARSAL_PLACEHOLDER
+Rehearsal `p20-a` ran on the desk against the fake node (no network for the sends), 2026-11-13 07:27:30Z to 07:51:27Z, with 2-minute lane steps (`STORM_LANE_MIN=2`, `STORM_RET_MIN=2`) and the probe's full read capped at 5,000 entries, using this pre-run's runner, lane, counter, probe, template watcher, kit24 and family-fee files (the same files, by hash after line endings, as the live run and this repo's `tools/desk`).
+
+- Preflight passed; `BUDGET_CHECK` logged (key 0 63,838 usable, 24 planned family minutes in the rehearsal, projected end 45,598, over the line plus margin); genesis 16 of 16 live; `FEE_SPLIT` verified floor 100, r150 150, r300 300, r450 450; `LANE_PLAN` BASE N0, HOLD-1 the reference, HOLD-2 greedy100 + normal, HOLD-3 N 8 at 460 + N 30 at 460, then the drain. The template watcher started with the probe (`KID tplwatch detached`) and wrote 445 rows every 3 s.
+- One lane submitted with no rejections and no losses (5,868 OK); lane 2 stayed at N = 0.
+- The controller did what the plan says: the reference from HOLD-1 (one minute in 2-minute steps); greedy at 100 percent held at 150 on a minute at 103 percent (no step down, the counter of good minutes only); the rule change reset the lane to 150 and held the last greedy minute (`segment-change`); the normal rule held at 150 on a first minute at 101 percent; then the fixed 460 with N = 8 and N = 30 was set on the minute boundaries, and the drain at N = 0. No `ERROR` line.
+- Every step file, TIMELINE, MEMPOOL and METHOD published to the rehearsal's local origin; `RUNNER_EXIT 0`.
+- Not reached in the rehearsal: the cap guard, the budget hold, and `FROZEN` (the lane never stopped).
 
 ## Status after the live run
 
